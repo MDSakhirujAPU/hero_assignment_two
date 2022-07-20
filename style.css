@@ -1,0 +1,41 @@
+body{
+    width: 1320px;
+    margin: 0 auto;
+}
+/*-------------------------Header CSS----------------------------------*/
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 18px;
+}
+header .header_left{
+    width: 50%;
+    color: #ffff;
+    padding-left: 70px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+header .header_left h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 5px;
+}
+header .header_left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+header .header_left a{
+    font-size: 20px;
+    
+}
+header .header_right{
+    width: 50%;
+}
+header .header_right img{
+    width: 50%;
+}
