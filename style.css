@@ -295,8 +295,11 @@ footer .footer_icon ul li i:hove{
         justify-items: center;
         text-align: center;
     }
-    header .header_right{
+    header .header_right {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     header .header_left h1 {
         font-family: 'Poppins', sans-serif;
@@ -316,6 +319,9 @@ footer .footer_icon ul li i:hove{
         transition: all 1s ease;
         text-decoration: none;
         color: #fff;
+    }
+    header .header_right img {
+        width: 50%;
     }
     main {
         width: 100%;
@@ -352,7 +358,6 @@ footer .footer_icon ul li i:hove{
         gap: 30px;
         text-align: center;
         border-radius: 10px;
-        width: 100%;
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
         align-items: center;
