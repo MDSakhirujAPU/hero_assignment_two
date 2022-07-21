@@ -278,7 +278,7 @@ footer .footer_icon ul li i:hove{
         width: 100%;
         margin: 0 auto;
     }
-    header{
+    header {
         width: 100%;
         margin: 0 auto;
         background-color: black;
@@ -286,6 +286,7 @@ footer .footer_icon ul li i:hove{
         grid-template-columns: repeat(1, 1fr);
         margin-top: 50px;
         border-radius: 18px;
+        padding: 0;
     }
     header .header_left{
         width: 100%;
@@ -393,5 +394,12 @@ footer .footer_icon ul li i:hove{
         border-radius: 5px;
         font-weight: 600;
         width: 32%;
+    }
+    main .match_box {
+        border: 1px solid #cccccc96;
+        border-radius: 5px;
+        background-color: #fff;
+        transition: all 1s;
+        display: grid;
     }
 }
